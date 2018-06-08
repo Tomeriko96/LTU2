@@ -22,7 +22,8 @@ body {
   font-kerning: normal;
   display: flex;
   min-height: 100vh;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -131,7 +132,8 @@ pre {
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
-  padding-left: 30px; }
+  padding-left: 30px;
+}
   @media screen and (max-width: 800px) {
     .wrapper {
       max-width: -webkit-calc(800px - (30px));
@@ -271,12 +273,15 @@ table {
 .footer-col-wrapper {
   font-size: 15px;
   color: #828282;
-  margin-left: -15px; }
+  margin-left: -15px;
+}
 
 .footer-col {
   float: left;
   margin-bottom: 15px;
-  padding-left: 15px; }
+  padding-left: 15px;
+}
+
 
 .footer-col-1 {
   width: -webkit-calc(35% - (30px / 2));
@@ -507,10 +512,11 @@ table {
   .content-wrapper{
     width: 80%;
     margin: 4% 10% 5% 10%;
-
+    float: left;
   }
   .content-wrapper img{
     width: 100%;
+
   }
   .text-wrapper{
     width:100%;
@@ -536,3 +542,18 @@ table {
     font-size: 3vw;
 
   }
+  .text-wrapper h5 {
+    text-align: center;
+    color: #ffffff;
+  }
+
+
+
+  footer {
+    height: 100px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 30px 50px, 50% 50%;
+    background-blend-mode: overlay, normal;
+    background-position: 30px 20px, 50% 50%;
+    background-image: url(../assets/purple.jpg);
+    padding-bottom: 100px; }
