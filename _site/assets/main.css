@@ -549,11 +549,12 @@ table {
 
 
 
-  footer {
+  /* footer {
     height: 100px;
     background-repeat: no-repeat, no-repeat;
     background-position: 30px 50px, 50% 50%;
     background-blend-mode: overlay, normal;
     background-position: 30px 20px, 50% 50%;
-    background-image: url(../assets/purple.jpg);
-    padding-bottom: 100px; }
+    /* background-image: url(../assets/purple.jpg); */
+    /* padding-bottom: 100px; } */
+     /* */ 
