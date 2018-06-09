@@ -257,7 +257,8 @@ table {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 55.95px;
-  position: relative; }
+  position: relative;
+}
 
 .site-title {
   font-size: 26px;
@@ -627,4 +628,17 @@ footer {
      /* */
 h5{
   color: #828282;
+}
+#contact-header{
+  background-image: url(/assets/1.jpg);
+  background-size: 1280px 720px;
+  height: 720px;
+
+}
+#imgh1{
+  margin-top: 200px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 10vw;
+  font-family: 'Lobster';
 }
