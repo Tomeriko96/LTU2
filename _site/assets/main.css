@@ -90,7 +90,7 @@
 .yt-wrapper {
 	display: block;
 	margin-bottom: 5%;
-	border-bottom: 1px solid #e8e8e8; 
+	border-bottom: 1px solid #e8e8e8;
 	height: 400px;
 	padding-top: 15px;
 }
@@ -685,7 +685,9 @@ h5{
   height: 360px;
   float: left;
 }
-
+#context{
+  color: #9791EC;
+}
 #contact-text{
   width: 40%;
   margin-top: 60px;
@@ -698,7 +700,7 @@ h5{
 
 #contact-main{
   width: 100%;
-
+  background-color: #f2f0f0;
   margin: 20 20 20 20;
   height: 480px;}
 
@@ -710,7 +712,7 @@ h5{
   font-family: 'Lobster';
 }
 #imgh2{
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: center;
   color: #ffffff;
   font-size: 6vw;
