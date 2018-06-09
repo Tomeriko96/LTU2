@@ -298,6 +298,7 @@ table {
   border-bottom: 1px solid #e8e8e8;
   min-height: 55.95px;
   position: relative;
+
 }
 
 .site-title {
@@ -672,9 +673,35 @@ h5{
 #contact-header{
   background-image: url(/assets/1.jpg);
   background-size: 1280px 720px;
-  height: 720px;
-
+  height: 720px;}
+#contact-body{
+  width: 40%;
+  background-image: url(/assets/Adam.jpg);
+  background-size: 600px 360px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 64px;
+  margin-right: 64px;
+  height: 360px;
+  float: left;
 }
+
+#contact-text{
+  width: 40%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 64px;
+  margin-right: 64px;
+  height: 360px;
+  float: right;
+}
+
+#contact-main{
+  width: 100%;
+
+  margin: 20 20 20 20;
+  height: 480px;}
+
 #imgh1{
   margin-top: 200px;
   text-align: center;
@@ -682,4 +709,35 @@ h5{
   font-size: 10vw;
   font-family: 'Lobster';
 }
+#imgh2{
+  margin-top: 30px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 6vw;
+  font-family: 'Lobster';
+}
+#imgh3{
+  text-align: center;
+  color: #ffffff;
+  font-size: 3vw;
+  font-family: 'Lobster';
+}
+#imgh5{
+  text-align: center;
+  color: #ffffff;
+  font-size: 1vw;
+  font-family: 'Lobster';
+}
 ul{list-style-type: square;}
+#contact-us{
+  background-image: url(/assets/2.jpg);
+  background-size: 1280px 720px;
+  height: 720px;
+  width:100%;
+}
+#contacth1{
+  margin-top: 360px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Lobster';
+}
