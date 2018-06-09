@@ -7,3 +7,7 @@
 //   var load_screen = document.getElementById("load_screen");
 //   document.body.removeChild(load_screen);
 // })
+
+function contact() {
+	window.open("/contact/index.html", "_self")
+};

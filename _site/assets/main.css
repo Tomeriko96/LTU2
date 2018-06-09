@@ -366,7 +366,7 @@ table {
  * Site footer
  */
 footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid #2B292E;
   padding: 20px 0 10px 0;
   background-color: #2B292E;
 }
@@ -671,6 +671,8 @@ h5{
   color: #828282;
 }
 #contact-header{
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
   background-image: url(/assets/1.jpg);
   background-size: 1280px 720px;
   height: 720px;}
@@ -740,4 +742,23 @@ ul{list-style-type: square;}
   text-align: center;
   color: #ffffff;
   font-family: 'Lobster';
+}
+
+button{
+	opacity: 0.6;
+	padding: 20px;
+	color: #ffffff;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: 2px solid #ffffff;
+	border-radius: 8px;
+	font-weight: 800;
+	overflow: hidden;
+	text-align: center;
+	display: block;
+	margin: 340px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover{
+	opacity: 1.0;
 }
