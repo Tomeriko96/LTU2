@@ -307,15 +307,20 @@ table {
  */
 
  
-.site-header {
+#site-header {
   background-color: #2B292E;
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
-  min-height: 55.95px;
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 1;
+  top: 0;
  }
+
+#site-header.fixed {
+	position: fixed;
+	top: 0;	
+}
  
 .site-title {
   font-size: 26px;

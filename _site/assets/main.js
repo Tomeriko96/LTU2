@@ -12,61 +12,39 @@ function contact() {
 	window.open("/contact/index.html", "_self")
 };
 
-// Hide Header on on scroll down
-var didScroll;
-var lastScrollTop = 0;
-var delta = 5;
-var navbarHeight = $('nav').outerHeight();
 
-$(window).scroll(function(event){
-    didScroll = true;
-});
-
-setInterval(function() {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-}, 250);
-
-function hasScrolled() {
-    var st = $(this).scrollTop();
-
-    // Make sure they scroll more than delta
-    if(Math.abs(lastScrollTop - st) <= delta)
-        return;
-
-    // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop && st > navbarHeight){
-        // Scroll Down
-        $('.site-header').fadeOut(200);
-    }
-	else {
-        // Scroll Up
-        if(st + $(window).height() < $(document).height()) {
-            $('.site-header').fadeIn(200);
-        }
-    }
+$(document).ready(function() {
+    var previousScroll = 0,
+        headerOrgOffset = $('#site-header').offset().top;
     
-    lastScrollTop = st;
-}
-
-$(document).ready(function(){
+	
+    $('#site-header').height($('#wrapper').height());
 
 	// hide #back-top first
 	$("#up").hide();
 	
-	// fade in #back-top
-	$(function () {
-		$(window).scroll(function () {
-			if ($(this).scrollTop() > 100) {
+	
+    $(window).scroll(function() {
+        var currentScroll = $(this).scrollTop();
+		
+        if ($(this).scrollTop() > 100) {
 				$('#up').fadeIn();
 			} else {
 				$('#up').fadeOut();
 			}
-		});
-
+		if(currentScroll > headerOrgOffset) {
+            if (currentScroll > previousScroll) {
+                $('#site-header').fadeOut();
+            } else {
+                $('#site-header').fadeIn(300);
+                $('#site-header').addClass('fixed');
+            }
+        } else {
+             $('#header').removeClass('fixed');   
+        }
+        previousScroll = currentScroll;
+    });
+    
 		// scroll body to 0px on click
 		$('#up').click(function () {
 			$('body,html').animate({
@@ -75,5 +53,3 @@ $(document).ready(function(){
 			return false;
 		});
 	});
-
-});
