@@ -12,13 +12,11 @@ function contact() {
 	window.open("/contact/index.html", "_self")
 };
 
-
-
 // Hide Header on on scroll down
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
-var navbarHeight = $('header').outerHeight();
+var navbarHeight = $('nav').outerHeight();
 
 $(window).scroll(function(event){
     didScroll = true;
@@ -42,13 +40,14 @@ function hasScrolled() {
     // This is necessary so you never see what is "behind" the navbar.
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
-        $('header').removeClass('site-header').addClass('site-nav-up');
-    } else {
+        $('.site-header').fadeOut(200);
+    }
+	else {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
-            $('header').removeClass('site-nav-up').addClass('site-header');
+            $('.site-header').fadeIn(200);
         }
     }
-
+    
     lastScrollTop = st;
 }

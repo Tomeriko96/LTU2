@@ -64,6 +64,8 @@
 }
 
 .what {
+	padding-top: 10px;
+	position: relative;
 	display: block;
 	text-align: center;
 	border-bottom: 1px solid #e8e8e8;
@@ -297,17 +299,17 @@ table {
  * Site header
  */
 
-.site-nav-up {
-    top: -55.95px;
-}
+ 
 .site-header {
   background-color: #2B292E;
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 55.95px;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
  }
-
+ 
 .site-title {
   font-size: 26px;
   font-weight: 300;
@@ -332,7 +334,7 @@ table {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
     .site-nav {
-      position: absolute;
+      position: fixed;
       top: 9px;
       right: 15px;
       background-color: #fdfdfd;
@@ -427,6 +429,7 @@ footer {
  * Page content
  */
 .page-content {
+  margin-top: 50px;
   padding: 30px 0;
 	padding-bottom: 0;
   flex: 1; }
