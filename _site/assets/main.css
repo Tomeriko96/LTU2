@@ -306,7 +306,7 @@ table {
  * Site header
  */
 
- 
+
 #site-header {
   background-color: #2B292E;
   border-top: 5px solid #424242;
@@ -319,9 +319,9 @@ table {
 
 #site-header.fixed {
 	position: fixed;
-	top: 0;	
+	top: 0;
 }
- 
+
 .site-title {
   font-size: 26px;
   font-weight: 300;
@@ -723,7 +723,7 @@ h5{
   color: #9791EC;
 }
 #contact-text{
-  width: 40%;
+  width: 35%;
   margin-top: 60px;
   margin-bottom: 60px;
   margin-left: 64px;

@@ -5,12 +5,12 @@ function contact() {
 $(document).ready(function() {
     var previousScroll = 0,
         headerOrgOffset = $('#site-header').offset().top;
-    
+
     $('#site-header').height($('#wrapper').height());
 
 	// hide #back-top first
 	$("#up").hide();
-	
+
     $(window).scroll(function() {
         var currentScroll = $(this).scrollTop();
 		//console.log(currentScroll + " and " + previousScroll + " and " + headerOrgOffset);
@@ -19,7 +19,7 @@ $(document).ready(function() {
 			} else {
 				$('#up').fadeOut();
 			}
-	
+
 		if(currentScroll > headerOrgOffset) {
             if (currentScroll > previousScroll) {
                 $('#site-header').fadeOut();
@@ -28,11 +28,11 @@ $(document).ready(function() {
                 $('#site-header').addClass('fixed');
             }
         } else {
-             $('#header').removeClass('fixed');   
+             $('#header').removeClass('fixed');
         }
         previousScroll = currentScroll;
 		});
-    
+
 		// scroll body to 0px on click
 		$('#up').click(function () {
 			$('body,html').animate({
