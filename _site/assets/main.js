@@ -48,6 +48,6 @@ function hasScrolled() {
             $('.site-header').fadeIn(200);
         }
     }
-    
+
     lastScrollTop = st;
 }

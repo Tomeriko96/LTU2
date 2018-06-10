@@ -299,7 +299,7 @@ table {
  * Site header
  */
 
- 
+
 .site-header {
   background-color: #2B292E;
   border-top: 5px solid #424242;
@@ -309,7 +309,7 @@ table {
   width: 100%;
   z-index: 1;
  }
- 
+
 .site-title {
   font-size: 26px;
   font-weight: 300;
@@ -776,7 +776,7 @@ ul{list-style-type: square;}
                 background-size: cover;
                 background-size: 100% 100%;}
 
-.contactbutton{
+.contactbutton, .shopbutton{
 	opacity: 0.7;
 	padding: 20px;
 	color: #ffffff;
