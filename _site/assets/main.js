@@ -11,8 +11,7 @@
 function contact() {
 	window.open("/contact/index.html", "_self")
 };
-<<<<<<< HEAD
-=======
+
 
 
 // Hide Header on on scroll down
@@ -53,4 +52,3 @@ function hasScrolled() {
 
     lastScrollTop = st;
 }
->>>>>>> origin/master

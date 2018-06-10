@@ -838,3 +838,6 @@ input{
 	opacity: 1.0;
 	cursor: pointer;
 }
+#form{
+	margin-bottom: 100px;
+}
