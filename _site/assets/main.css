@@ -764,7 +764,7 @@ ul{list-style-type: square;}
   border-bottom: 1px solid #e8e8e8;
   /* background-image: url(/assets/1.jpg);
   background-size: 1280px 720px; */
-  height: 720px;
+  /* height: 720px; */
 	/* height: 100%; */
   width:100%;
 	background: url(/assets/2.jpg) no-repeat center center fixed;
@@ -772,7 +772,7 @@ ul{list-style-type: square;}
                 -moz-background-size: cover;
                 -o-background-size: cover;
                 background-size: cover;
-                background-size: 100% 100%;
+                background-size: 100% 100%;}
 
 .contactbutton{
 	opacity: 0.7;
