@@ -108,9 +108,11 @@ iframe {
 }
 
 #up {
+	background-color: darkturquoise;
 	position: fixed;
 	margin: 0;
-	bottom: 0;
+	margin-right: 15px;
+	bottom: 15px;
 	right: 0;
 }
 
@@ -919,7 +921,7 @@ button.accordion:hover, button.accordion.is-open {
   padding: 0 20px;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-in-out;
+  transition: max-height 1s ease-in-out;
 }
 
 /* Testimonials */
