@@ -724,6 +724,7 @@ h5{
 
 #trianglify {
 	background-image: url(/assets/trianglify1.png);
+	background-size: cover;
 }
 #contact-text{
   position: absolute;
