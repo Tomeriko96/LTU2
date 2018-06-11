@@ -821,6 +821,7 @@ button:hover{
 	color: #ffffff;
 	text-align: center;
 	font-weight: 500;
+	font-size: 30px;
 }
 
 input{
@@ -828,6 +829,8 @@ input{
 	background-repeat: no-repeat;
 	text-align: center;
 	margin: 0 auto;
+	color: #ffffff;
+	font-size: 20px;
 }
 
 #input{
