@@ -310,7 +310,6 @@ table {
 #site-header {
   background-color: #2B292E;
   border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
   position: absolute;
   width: 100%;
   z-index: 1;
@@ -722,13 +721,18 @@ h5{
 #context{
   color: #9791EC;
 }
+
+#trianglify {
+	background-image: url(/assets/trianglify1.png);
+}
 #contact-text{
-  width: 35%;
-  margin-top: 60px;
+  position: absolute;
+  right: 0;
+  width: 40%;
+  margin-top: 45px;
   margin-bottom: 60px;
   margin-left: 64px;
   margin-right: 64px;
-  height: 360px;
   float: right;
 }
 
@@ -776,7 +780,6 @@ ul{list-style-type: square;}
 #contact-us{
 	opacity: 0.8;
   border-top: 1px solid #e8e8e8;
-  border-bottom: 1px solid #e8e8e8;
   /* background-image: url(/assets/1.jpg);
   background-size: 1280px 720px; */
   /* height: 720px; */
