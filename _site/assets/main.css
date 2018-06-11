@@ -971,16 +971,18 @@ button.accordion:hover, button.accordion.is-open {
 /* // Controls */
 .client-controls{
 	position: absolute;
-	margin: 0 0 0 0 ;
-	z-index: 2;
-	margin-top: -20px;
+	/* margin: 0 0 0 0 ; */
+	/* z-index: 2; */
+	/* margin-top: -20px; */
 }
 
   .client-control-next{
 		position: absolute;
-	margin: 50% 0 0 10px;}
+		margin: 50% 10px 0 0;
+	}
 
-  .client-control-prev{
+  .client-control-previous{
     position: absolute;
 		margin: 50% 0 0 10px;
+
 	}
