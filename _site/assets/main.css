@@ -902,14 +902,14 @@ button.accordion {
 }
 
 button.accordion:after {
-  content: '\f055';
+  content: "+";
   font-family: "fontawesome";
   font-size: 14px;
   float: right;
 }
 
 button.accordion.is-open:after {
-  content: '\f056';
+  content: "-";
 }
 
 button.accordion:hover, button.accordion.is-open {
@@ -936,7 +936,7 @@ button.accordion:hover, button.accordion.is-open {
 	position: relative;
 }
 .clients-belt{
-	width: 100%;
+	width: 25%;
 	position: relative;
 }
 
