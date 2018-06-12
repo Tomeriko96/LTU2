@@ -348,10 +348,11 @@ table {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
     .site-nav {
+			width: 50%;
       position: fixed;
       top: 9px;
       right: 15px;
-      background-color: #fdfdfd;
+      background-color: #2B292E;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -360,7 +361,7 @@ table {
         float: right;
         width: 36px;
         height: 36px;
-        z-index: 2;
+        z-index: 1;
         cursor: pointer; }
       .site-nav .menu-icon {
         display: block;
@@ -1003,4 +1004,42 @@ img{
 .client-control-previous{
   position: absolute;
 	margin: 50% 10px 0 450px;
+}
+
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #333;
+	overflow: hidden;
+}
+ul li{
+	float: left;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 16px 18px;
+	display: block;
+}
+.navul li:not(.active) a:hover{
+	background-color: #111;
+	color: #aaa;
+}
+
+@media screen and (max-width: 185px){
+	.navul li,{
+		float: none;
+	}
+}
+@media screen and (min-width: 1024px){
+	.navul li{
+		float: none;
+	}
+	.navul{
+		width:25%;
+		position: fixed;
+	}
 }
