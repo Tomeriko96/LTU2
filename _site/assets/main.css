@@ -947,7 +947,8 @@ button.accordion:hover, button.accordion.is-open {
 
 .client-title{font-style: normal;
   font-size: 12px;
-  color: red;
+  color: gold;
+	font-weight: bold;
 }
 
 .client-unit{
@@ -984,24 +985,7 @@ img{
   letter-spacing: 1px;
 }
 
-/* // Controls */
-.client-controls{
-	position: absolute;
-	margin-top: 5%;
-	/* margin: 0 0 0 0 ; */
-	/* z-index: 2; */
-	/* margin-top: -20px; */
-}
 
-.client-control-next{
-	position: absolute;
-	margin: 50% 0 0 800px;
-}
-
-.client-control-previous{
-  position: absolute;
-	margin: 50% 10px 0 450px;
-}
 
 /* nav div */
 /* .navul{
@@ -1063,4 +1047,7 @@ img{
 	width: 36%;
 	height: 100%;
 	float: left;
+}
+#jane{
+	margin-top: 30px;
 }
