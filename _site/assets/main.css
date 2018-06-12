@@ -695,6 +695,30 @@ h5{
   height: 360px;
   float: left;
 }
+.contact-form{
+	display: block;
+	margin: 0 auto;
+	width: 40%;
+	height: 40%;
+	/* border: 1px solid #ffffff; */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow: hidden;
+}
+
+#contact-blok{
+	background-color: #2B292E;
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+#contact-info{
+	background-color: darkturquoise;
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
 #context{
   color: #9791EC;
 }
@@ -979,25 +1003,24 @@ img{
 	margin: 50% 10px 0 450px;
 }
 
-/* nav ul */
+/* nav div */
 .navul{
-	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	background-color: #333;
 	overflow: hidden;
 }
-.navul li{
+.navul div{
 	float: left;
 }
-.navul li a{
+.navul div a{
 	text-decoration: none;
 	color: white;
 	padding: 16px 18px;
 	display: block;
 }
-.navul li:not(.active) a:hover{
+.navul div:not(.active) a:hover{
 	background-color: #111;
 	color: #aaa;
 }
