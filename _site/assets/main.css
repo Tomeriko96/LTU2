@@ -1051,6 +1051,7 @@ img{
 	margin-top: -10%;
 }
 #message{
+
 	background-color: white;
 	width: 70%;
 	float: left;
@@ -1059,7 +1060,6 @@ img{
 #continfo{
 	background-color: purple;
 	width: 30%;
-	float: right;
-	float: left;
 	height: 100%;
+	float: left;
 }
