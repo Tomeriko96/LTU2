@@ -1051,11 +1051,15 @@ img{
 	margin-top: -10%;
 }
 #message{
+	
 	background-color: white;
 	width: 70%;
+	height: 100%;
+	float: left;
 }
 #continfo{
 	background-color: purple;
 	width: 30%;
-	float: right;
+	height: 100%;
+	float: left;
 }
