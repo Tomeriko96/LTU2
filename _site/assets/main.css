@@ -889,13 +889,14 @@ text-decoration: underline;
 
 button.accordion {
   width: 100%;
-  background-color: whitesmoke;
-  border: none;
+  opacity: 0.8;
+  background-color: #2B292E;
+  border: 1px solid;
   outline: none;
   text-align: left;
   padding: 15px 20px;
   font-size: 18px;
-  color: #444;
+  color: darkturquoise;
   cursor: pointer;
   transition: background-color 0.2s linear;
 }
@@ -912,7 +913,8 @@ button.accordion.is-open:after {
 }
 
 button.accordion:hover, button.accordion.is-open {
-  background-color: #ddd;
+  background-color: #2B292E;
+  opacity: 1.0;
 }
 
 .accordion-content {
