@@ -1053,13 +1053,13 @@ img{
 #message{
 
 	background-color: white;
-	width: 70%;
+	width: 60%;
 	float: left;
 	height: 100%;
 }
 #continfo{
 	background-color: purple;
-	width: 30%;
+	width: 40%;
 	height: 100%;
 	float: left;
 }
