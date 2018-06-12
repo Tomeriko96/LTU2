@@ -979,8 +979,8 @@ img{
 	margin: 50% 10px 0 450px;
 }
 
-
-ul{
+/* nav ul */
+.navul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -988,10 +988,10 @@ ul{
 	background-color: #333;
 	overflow: hidden;
 }
-ul li{
+.navul li{
 	float: left;
 }
-ul li a{
+.navul li a{
 	text-decoration: none;
 	color: white;
 	padding: 16px 18px;
@@ -1002,7 +1002,7 @@ ul li a{
 	color: #aaa;
 }
 
-@media screen and (max-width: 185px){
+@media screen and (max-width: 485px){
 	.navul li,{
 		float: none;
 	}
