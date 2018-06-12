@@ -1051,15 +1051,16 @@ img{
 	margin-top: -10%;
 }
 #message{
-
+	padding: 2%;
 	background-color: white;
-	width: 60%;
+	width: 56%;
 	float: left;
 	height: 100%;
 }
 #continfo{
+	padding: 2%;
 	background-color: purple;
-	width: 40%;
+	width: 36%;
 	height: 100%;
 	float: left;
 }
