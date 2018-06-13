@@ -729,6 +729,14 @@ h5{
 	background-image: url(/assets/trianglify1.png);
 	background-size: cover;
 }
+#trianglify2 {
+	background-image: url(/assets/trianglify2.png);
+	background-size: cover;
+}
+#trianglify3 {
+	background-image: url(/assets/trianglify3.png);
+	background-size: cover;
+}
 #contact-text{
   position: absolute;
   right: 0;
@@ -1118,12 +1126,24 @@ img{
 }
 #ideals > div {
 	height: 10vh;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: white;
+	border-radius: 25px;
+  border: 1px solid #2B292E;
+  padding: 20px;
+  width: 180px;
+  height: 180px;
+	float: left;
+	margin-right: 1px;
 }
 #ideals > div>  p {
-	width: 75%;
+	width: 100%;
 	float: right;
-	font-size: 1.5vh;
+	font-size: 1vh;
+	text-align: center;
 }
 #ideals > div > img {
-	height: 10vh;
+	display:block;
+    margin:auto;
 }
