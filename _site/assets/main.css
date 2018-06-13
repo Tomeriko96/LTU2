@@ -1113,3 +1113,17 @@ img{
 	margin-bottom: -0.5%;
 	margin-top: 5%;
 }
+#ideals{
+	height: 150vh;
+}
+#ideals > div {
+	height: 10vh;
+}
+#ideals > div>  p {
+	width: 75%;
+	float: right;
+	font-size: 1.5vh;
+}
+#ideals > div > img {
+	height: 10vh;
+}
