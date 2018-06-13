@@ -102,6 +102,7 @@ iframe {
 }
 
 .yt-text{
+	margin-top: 2%;
 	margin-right: 5%;
 	text-align: justify;
 	float: left;
