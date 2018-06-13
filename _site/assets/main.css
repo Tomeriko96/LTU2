@@ -91,7 +91,6 @@
 
 .yt-wrapper {
 	display: block;
-	/* margin-bottom: 5%; */
 	border-bottom: 1px solid #e8e8e8;
 	height: 400px;
 	padding-top: 15px;
@@ -331,7 +330,6 @@ table {
   font-weight: 300;
   line-height: 54px;
   letter-spacing: -1px;
-  /* margin-bottom: 0; */
   float: left; }
   .site-title, .site-title:visited {
     color: darkturquoise; }
@@ -339,7 +337,6 @@ table {
 .site-nav {
   float: right;
   line-height: 54px;
-	/* margin-right: 30%; */
 	width: 75%;
 }
   .site-nav .nav-trigger {
@@ -660,25 +657,12 @@ footer {
     color: #ffffff;
   }
 
-
-
-  /* footer {
-    height: 100px;
-    background-repeat: no-repeat, no-repeat;
-    background-position: 30px 50px, 50% 50%;
-    background-blend-mode: overlay, normal;
-    background-position: 30px 20px, 50% 50%;
-    /* background-image: url(../assets/purple.jpg); */
-    /* padding-bottom: 100px; } */
-     /* */
 h5{
   color: #828282;
 }
 #contact-header{
   border-top: 1px solid #e8e8e8;
   border-bottom: 1px solid #e8e8e8;
-  /* background-image: url(/assets/1.jpg);
-  background-size: 1280px 720px; */
   height: 720px;
 	background: url(/assets/1.jpg) no-repeat center center fixed;
                 -webkit-background-size: cover;
@@ -691,9 +675,7 @@ h5{
 #contact-body{
   width: 100%;
   background-image: url(/assets/Adam.jpg);
-  /* background-size: 600px 360px; */
 	background-size: cover;
-
   height: 100vh;
   float: left;
 }
@@ -702,7 +684,6 @@ h5{
 	margin: 0 auto;
 	width: 40%;
 	height: 40%;
-	/* border: 1px solid #ffffff; */
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	overflow: hidden;
 }
@@ -724,17 +705,19 @@ h5{
 #context{
   color: #9791EC;
 }
-
+/* red */
 #trianglify {
-	background-image: url(/assets/trianglify1.png);
+	background-image: url(/assets/trianglify/trianglify1.png);
 	background-size: cover;
 }
+/* grey */
 #trianglify2 {
-	background-image: url(/assets/trianglify2.png);
+	background-image: url(/assets/trianglify/trianglify2.png);
 	background-size: cover;
 }
+/* blue */
 #trianglify3 {
-	background-image: url(/assets/trianglify3.png);
+	background-image: url(/assets/trianglify/trianglify3.png);
 	background-size: cover;
 }
 #contact-text{
@@ -789,21 +772,10 @@ h5{
 	color: #ffffff;
 }
 ul{list-style-type: square;}
-/* #contact-us{
-  background-image: url(/assets/2.jpg);
-  background-size: 1280px 720px;
-	background-size: cover;
-  height: 720px;
-	height: 100%;
-  width:100%;
-} */
+
 #contact-us{
 	opacity: 0.8;
   border-top: 1px solid #e8e8e8;
-  /* background-image: url(/assets/1.jpg);
-  background-size: 1280px 720px; */
-  /* height: 720px; */
-	/* height: 100%; */
   width:100%;
 	background: url(/assets/2.jpg) no-repeat center center fixed;
                 -webkit-background-size: cover;
@@ -825,7 +797,6 @@ ul{list-style-type: square;}
 	text-align: center;
 	display: block;
 	margin: 320px auto;
-	/* margin: 50% 50% 50% 50%; */
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -885,8 +856,6 @@ text-decoration: underline;
 	opacity: 0.5;
 	border-top: 1px solid #e8e8e8;
 	border-bottom: 1px solid #e8e8e8;
-	/* background-image: url(/assets/1.jpg);
-	background-size: 1280px 720px; */
 	height: 100vh;
 	background: url(/assets/5.jpg) no-repeat center center fixed;
 								-webkit-background-size: cover;
@@ -897,7 +866,6 @@ text-decoration: underline;
 }
 .container {
   width: 100%;
-  /* max-width: 600px; */
   margin: 50px 0;
 }
 
@@ -1001,44 +969,6 @@ img{
   letter-spacing: 1px;
 }
 
-
-
-/* nav div */
-/* .navul{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	background-color: #333;
-	overflow: hidden;
-}
-.navul div{
-	float: left;
-}
-.navul div a{
-	text-decoration: none;
-	color: white;
-	padding: 16px 18px;
-	display: block;
-}
-.navul div:not(.active) a:hover{
-	background-color: #111;
-	color: #aaa;
-}
-
-@media screen and (max-width: 485px){
-	.navul li,{
-		float: none;
-	}
-}
-@media screen and (min-width: 1024px){
-	.navul li{
-		float: none;
-	}
-	.navul{
-		width:25%;
-		position: fixed;
-	}
-} */
 #blue{
 	height: 400px;
 	background-color: red;
@@ -1058,6 +988,8 @@ img{
 	padding-top: 3%;
 	padding-right: 5%;
 	padding-bottom: 3%;
+	background-image: url(/assets/trianglify/trianglify3.png);
+	background-size: cover;
 }
 #message{
 	background-color: white;
@@ -1065,6 +997,8 @@ img{
 	height: 300px;
 	float: left;
 	z-index: 1;
+	background-image: url(/assets/trianglify/trianglify3.png);
+	background-size: cover;
 }
 #continfo{
 	background-color: purple;
