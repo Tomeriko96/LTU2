@@ -879,7 +879,7 @@ text-decoration: underline;
 	border-bottom: 1px solid #e8e8e8;
 	/* background-image: url(/assets/1.jpg);
 	background-size: 1280px 720px; */
-	height: 720px;
+	height: 100vh;
 	background: url(/assets/5.jpg) no-repeat center center fixed;
 								-webkit-background-size: cover;
 								-moz-background-size: cover;
@@ -938,7 +938,7 @@ button.accordion:hover, button.accordion.is-open {
 
 /* Testimonials */
 #testimonial{
-	height: 400px;
+	height: 60vh;
 	position: relative;
 }
 .clients-belt{
