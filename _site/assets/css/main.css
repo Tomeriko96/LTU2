@@ -1081,3 +1081,7 @@ img{
 	display:block;
     margin:auto;
 }
+#p404{
+	background-image: url(/assets/img/eclipse.jpg);
+	background-size: cover;
+}
