@@ -664,7 +664,7 @@ h5{
   border-top: 1px solid #e8e8e8;
   border-bottom: 1px solid #e8e8e8;
   height: 720px;
-	background: url(/assets/1.jpg) no-repeat center center fixed;
+	background: url(/assets/img/1.jpg) no-repeat center center fixed;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
@@ -674,7 +674,7 @@ h5{
 }
 #contact-body{
   width: 100%;
-  background-image: url(/assets/Adam.jpg);
+  background-image: url(/assets/img/Adam.jpg);
 	background-size: cover;
   height: 100vh;
   float: left;
@@ -777,7 +777,7 @@ ul{list-style-type: square;}
 	opacity: 0.8;
   border-top: 1px solid #e8e8e8;
   width:100%;
-	background: url(/assets/2.jpg) no-repeat center center fixed;
+	background: url(/assets/img/2.jpg) no-repeat center center fixed;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
@@ -857,7 +857,7 @@ text-decoration: underline;
 	border-top: 1px solid #e8e8e8;
 	border-bottom: 1px solid #e8e8e8;
 	height: 100vh;
-	background: url(/assets/5.jpg) no-repeat center center fixed;
+	background: url(/assets/img/5.jpg) no-repeat center center fixed;
 								-webkit-background-size: cover;
 								-moz-background-size: cover;
 								-o-background-size: cover;
