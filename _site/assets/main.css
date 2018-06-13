@@ -745,7 +745,6 @@ h5{
 #contact-main{
   width: 100%;
   background-color: #f2f0f0;
-  margin: 20 20 20 20;
   height: 480px;}
 
 #imgh1{
@@ -1026,7 +1025,7 @@ img{
 	}
 } */
 #blue{
-	height: 300px;
+	height: 400px;
 	background-color: red;
 }
 #white{
@@ -1034,19 +1033,56 @@ img{
 	width: 60%;
 	background-color: blue;
 	margin: 0 auto;
-	margin-top: -10%;
+	margin-top: -150px;
+	margin-bottom: 100px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+	z-index: 1;
+}
+#message-info{
+	padding-left: 5%;
+	padding-top: 3%;
+	padding-right: 5%;
+	padding-bottom: 3%;
 }
 #message{
-	padding: 2%;
 	background-color: white;
-	width: 56%;
+	width: 60%;
+	height: 300px;
 	float: left;
-	height: 100%;
+	z-index: 1;
 }
 #continfo{
-	padding: 2%;
 	background-color: purple;
-	width: 36%;
-	height: 100%;
+	width: 40%;
+	height: 300px;
+	float: right;	
+}
+#contact-content{
+	padding-left: 5%;
+	padding-top: 3%;
+	padding-right: 5%;
+	padding-bottom: 3%;
+}
+.label{
+	display: inline-block;
 	float: left;
+	width: 150px;
+	text-align: right;
+	color: darkturquoise;
+	margin-right: 2%;
+}
+
+.input{
+	display: inline-block;
+	float: left;
+}
+.input2{
+	border: none;
+	border-bottom: 1px solid lightgrey;
+	margin-bottom: 0.4%;
+}
+
+.message-title{
+	color: darkturquoise;
+	font-size: 1.5vw;
 }
