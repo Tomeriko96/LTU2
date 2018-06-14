@@ -1085,3 +1085,33 @@ img{
 	background-image: url(/assets/img/eclipse.jpg);
 	background-size: cover;
 }
+#cus{
+	height: 120vh;
+	background-image: url(/assets/trianglify/trianglify1.png);
+	background-size: cover;
+}
+#cus > h1{
+	text-align: center;
+	margin-top: 5%;
+	font-weight: 800;
+}
+#cus > div > h2{
+	font-weight: 800;
+}
+#cus > div> h3 {
+	margin-top: 10%;
+	font-weight: 800;
+}
+#cus > div > p{
+	margin-top: -2%;
+}
+#cus > div > img{
+	margin-bottom: 3%;
+}
+.methods{
+	width: 33%;
+	height: 80vh;
+	float: left;
+	text-align: center;
+	margin-top: 5%;
+}
