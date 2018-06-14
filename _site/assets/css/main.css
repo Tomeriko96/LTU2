@@ -707,6 +707,7 @@ h5{
 #trianglify {
 	background-image: url(/assets/trianglify/trianglify1.png);
 	background-size: cover;
+	
 }
 /* grey */
 #trianglify2 {
@@ -1111,20 +1112,22 @@ img{
 	margin-top: 5%;
 }
 #ideals{
+	margin: 0 auto;
 	height: 150vh;
+	width: 50%;
 }
 #ideals > div {
-	height: 10vh;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	background-color: white;
-	border-radius: 25px;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	/* margin-top: 5px; */
+	/* margin-bottom: 5px; */
+  background-color: white;
+  border-radius: 25px;
   border: 1px solid #2B292E;
   padding: 20px;
   width: 180px;
   height: 180px;
-	float: left;
-	margin-right: 1px;
+  float: left;
 }
 #ideals > div>  p {
 	width: 100%;
