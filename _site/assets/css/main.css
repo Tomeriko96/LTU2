@@ -1100,8 +1100,8 @@ img{
 }
 #ideals{
 	margin: 0 auto;
-	height: 150vh;
-	width: 100%;
+	height: 65vh;
+	width: 90%;
 }
 
 @media screen and (max-width: 414px) {
