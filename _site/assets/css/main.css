@@ -862,7 +862,8 @@ button:hover{
 	cursor: pointer;
 }
 #form{
-	margin-top: 75%;
+	width: 100%;
+	margin-top: 50%;
 }
 a.active-page{
 text-decoration: underline;
@@ -929,7 +930,7 @@ button.accordion:hover, button.accordion.is-open {
 
 /* Testimonials */
 #testimonial{
-	height: 250vh;
+	height: 150vh;
 	position: relative;
 }
 .clients-belt{
@@ -944,25 +945,9 @@ button.accordion:hover, button.accordion.is-open {
 		height: 25%;
 		width: 100%;
 		margin-bottom: 50vh;
-		 }
-		 #testimonials{
-			 height: 250vh;
-		 }
+		}
+}
 
-	 }
-/* #ideals > div {
-	height: 10vh;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	background-color: white;
-	border-radius: 25px;
-  border: 1px solid #2B292E;
-  padding: 20px;
-  width: 180px;
-  height: 180px;
-	float: left;
-	margin-right: 1px;
-} */
 .client-name{
 	display: block;
   text-transform: uppercase;
