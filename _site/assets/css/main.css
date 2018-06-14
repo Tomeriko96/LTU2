@@ -204,8 +204,6 @@ a {
     color: #111;
     text-decoration: underline; }
 
-
-
 /**
  * Blockquotes
  */
@@ -1052,7 +1050,7 @@ img{
 	height:100%;
 }
 #cont{
-	margin-bottom: -0.5%;
+	margin-bottom: 1%;
 	margin-top: 5%;
 }
 #ideals{
