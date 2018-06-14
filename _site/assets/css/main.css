@@ -715,9 +715,18 @@ h5{
 	background-size: cover;
 }
 /* blue */
-#trianglify3 {
+#trianglify3 {	
 	background-image: url(/assets/trianglify/trianglify3.png);
 	background-size: cover;
+	  /* background-color: white; */
+	border-radius: 48px;
+	border: 1px solid #2B292E;
+	width: 180px;
+	height: 25vh;
+	padding: 1%;
+	float: left;
+	margin-left: 1%;
+	margin-bottom: 1%;
 }
 #contact-text{
   position: absolute;
@@ -1095,21 +1104,23 @@ img{
 	width: 100%;
 }
 
-/* @media screen and (max-width: 414px) { */
-	/* #ideals > div{ */
-		/* margin: 5%; */
-	/* } */
-/* } */
-#ideals > div {
-  background-color: white;
-  border-radius: 48px;
-  border: 1px solid #2B292E;
-  width: 30%;
-  height: 180px;
-  float: left;
-	margin-left: 1%;
-	margin-bottom: 1%;
+@media screen and (max-width: 414px) {
+	#trianglify3{
+		height: 150px;
+		width: 120px;
+	}
+	#trianglify3 > img{
+		
+	}
 }
+@media screen and (max-width: 375px) {
+	#trianglify3{
+		height: 150px;
+		width: 110px;
+	}
+}
+
+
 #ideals > div>  p {
 	width: 100%;
 	float: right;
