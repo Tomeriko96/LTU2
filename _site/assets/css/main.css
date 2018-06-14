@@ -957,28 +957,6 @@ button.accordion:hover, button.accordion.is-open {
 		 }
 
 	 }
-	 
-
-/* #ideals > div {
-	height: 10vh;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	background-color: white;
-	border-radius: 25px;
-  border: 1px solid #2B292E;
-  padding: 20px;
-  width: 180px;
-  height: 180px;
-	float: left;
-	margin-right: 1px;
-} */
-=======
-		 #testimonials{
-			 height: 250vh;
-			 width: 100vw;
-		 }}
-
->>>>>>> c3da64371d0abf5c08d38d930bafbe62b946671a
 .client-name{
 	display: block;
   text-transform: uppercase;
@@ -1117,10 +1095,8 @@ img{
 	width: 50%;
 }
 #ideals > div {
-	margin-left: 2%;
-	margin-bottom: 2%;
-	/* margin-top: 5px; */
-	/* margin-bottom: 5px; */
+  margin-left: 2%;
+  margin-bottom: 2%;
   background-color: white;
   border-radius: 25px;
   border: 1px solid #2B292E;
