@@ -775,6 +775,7 @@ ul{list-style-type: square;}
 	opacity: 0.8;
   border-top: 1px solid #e8e8e8;
   width:100%;
+	height: 120vh;
 	background: url(/assets/img/2.jpg) no-repeat center center fixed;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
@@ -861,7 +862,7 @@ button:hover{
 	cursor: pointer;
 }
 #form{
-	margin-bottom: 100px;
+	margin-top: 75%;
 }
 a.active-page{
 text-decoration: underline;
