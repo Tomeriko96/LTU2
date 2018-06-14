@@ -715,7 +715,7 @@ h5{
 	background-size: cover;
 }
 /* blue */
-#trianglify3 {	
+#trianglify3 {
 	background-image: url(/assets/trianglify/trianglify3.png);
 	background-size: cover;
 	  /* background-color: white; */
@@ -1100,7 +1100,7 @@ img{
 }
 #ideals{
 	margin: 0 auto;
-	height: 65vh;
+	height: 90vh;
 	width: 90%;
 }
 
@@ -1109,13 +1109,13 @@ img{
 		height: 100vh;
 		width: 100%;
 	}
-	
+
 	#trianglify3{
 		height: 150px;
 		width: 120px;
 	}
 	#trianglify3 > img{
-		
+
 	}
 }
 @media screen and (max-width: 375px) {
