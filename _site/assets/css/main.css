@@ -1105,6 +1105,11 @@ img{
 }
 
 @media screen and (max-width: 414px) {
+	#ideals{
+		height: 100vh;
+		width: 100%;
+	}
+	
 	#trianglify3{
 		height: 150px;
 		width: 120px;
@@ -1114,6 +1119,10 @@ img{
 	}
 }
 @media screen and (max-width: 375px) {
+	#ideals{
+		height: 100vh;
+		width: 100%;
+	}
 	#trianglify3{
 		height: 150px;
 		width: 110px;
