@@ -707,7 +707,7 @@ h5{
 #trianglify {
 	background-image: url(/assets/trianglify/trianglify1.png);
 	background-size: cover;
-	
+
 }
 /* grey */
 #trianglify2 {
@@ -1092,7 +1092,7 @@ img{
 #ideals{
 	margin: 0 auto;
 	height: 150vh;
-	width: 50%;
+	width: 80%;
 }
 #ideals > div {
   margin-left: 2%;
