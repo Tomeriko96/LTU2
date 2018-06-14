@@ -281,8 +281,6 @@ pre {
   padding-right: 5px;
   vertical-align: text-top; }
 
-.social-media-list li + li {
-  padding-top: 5px; }
 
 /**
  * Tables
@@ -1234,4 +1232,16 @@ img{
 }
 #msub{
 
+}
+@media screen and (max-width: 600px) {
+	.socmed > div{
+		width: 100%;
+	}
+}
+#copyright{
+	float: left;
+	font-size: 2vh;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
 }
