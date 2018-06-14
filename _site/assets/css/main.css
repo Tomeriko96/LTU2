@@ -933,7 +933,6 @@ button.accordion:hover, button.accordion.is-open {
 	position: relative;
 }
 .clients-belt{
-	margin-top: 5%;
 	width: 25%;
 	position: relative;
 }
@@ -955,7 +954,6 @@ button.accordion:hover, button.accordion.is-open {
   max-width: 750px;
   margin: 10px auto;
   position: relative;
-  z-index: 1;
 }
 .client-content{
 	font-size: 18px;
