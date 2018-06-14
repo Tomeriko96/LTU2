@@ -1092,7 +1092,7 @@ img{
 #ideals{
 	margin: 0 auto;
 	height: 150vh;
-	width: 80%;
+	width: 100%;
 }
 
 /* @media screen and (max-width: 414px) { */
@@ -1104,9 +1104,11 @@ img{
   background-color: white;
   border-radius: 48px;
   border: 1px solid #2B292E;
-  width: 150px;
-  height: 150px;
+  width: 30%;
+  height: 180px;
   float: left;
+	margin-left: 1%;
+	margin-bottom: 1%;
 }
 #ideals > div>  p {
 	width: 100%;
