@@ -1233,10 +1233,9 @@ img{
 #msub{
 
 }
-@media screen and (max-width: 600px) {
-	.socmed > div{
-		width: 100%;
-	}
+.socmed{
+	width: 20%;
+	margin: 0 auto 0 auto;
 }
 #copyright{
 	float: left;
