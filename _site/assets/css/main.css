@@ -64,6 +64,7 @@
 }
 
 .what {
+	margin-top: 5vh;
 	padding-top: 10px;
 	position: relative;
 	display: block;
@@ -350,6 +351,9 @@ table {
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
+		.page-content{
+			margin-top: 5%;
+		}
 		.what{
 			font-size: 1.5vh;
 			font-weight: 800;
@@ -445,7 +449,7 @@ footer {
  * Page content
  */
 .page-content {
-  margin-top: 5%;
+  /* margin-top: 5%; */
   padding: 30px 0;
 	padding-bottom: 0;
   flex: 1; }
@@ -481,7 +485,9 @@ footer {
 .post-title {
   font-size: 42px;
   letter-spacing: -1px;
-  line-height: 1; }
+  line-height: 1;
+	margin-top: 5vh;
+}
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
