@@ -930,9 +930,15 @@ button.accordion:hover, button.accordion.is-open {
 
 /* Testimonials */
 #testimonial{
-	height: 150vh;
+	height: 60vh;
+	width: 100vw;
 	position: relative;
+
+	@media screen {
+		height: 250vh;
+	}
 }
+
 .clients-belt{
 	width: 25%;
 	position: relative;
@@ -945,8 +951,11 @@ button.accordion:hover, button.accordion.is-open {
 		height: 25%;
 		width: 100%;
 		margin-bottom: 50vh;
-		}
-}
+		 }
+		 #testimonials{
+			 height: 250vh;
+			 width: 100vw;
+		 }}
 
 .client-name{
 	display: block;
