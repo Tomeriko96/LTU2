@@ -98,20 +98,49 @@
 		</div>
 	</div>
 </main> -->
-<main id="message-us">
-  <div id="mus">
-    <h2>Message Us</h2>
-  </div>
-  <div id="mform">
-    <div id="mq">
-      <h4>Name</h4>
-      <h4>Email</h4>
-      <h4>Comments</h4>
+<main id="contus" style="height: 100vh;">
+  <div>
+    <div>
+      <form>
+          <div style = "width: 50%; margin: 0 auto;">
+                <fieldset style="height: 80vh;">
+                <div >Name<span >*</span></div>
+                  <div>
+                    <label ><input name="fname"
+                    x-autocompletetype="given-name" type="text"
+                    spellcheck="false"
+                    maxlength="30"
+                    data-title="First" style="width: 40%;"/></label>
+                    <h6>First Name</h6>
+                  </div>
+                  <div>
+                    <label><input class=name="lname"
+                    x-autocompletetype="surname" type="text"
+                    spellcheck="false" maxlength="30" data-title="Last" style="width: 40%;"/></label>
+                  </div>
+                  <h6>Last Name</h6>
+                <div style="height: 15vh;">
+                  <label>Email Address <span>*</span></label>
+                  <input name="email" x-autocompletetype="email" type="text" spellcheck="false" style="width: 100%;"/>
+                </div>
+                <div style="height: 15vh;">
+                  <label>Subject <span class="required">*</span></label>
+                  <input type="text" style="width: 100%;"/>
+                </div>
+                <div style="height: 35vh;">
+                  <label >Message <span class="required">*</span></label>
+                  <textarea style="width: 100%;"></textarea>
+                </div>
+                </fieldset>
+          </div>
+          </div>
+        <div>
+          <input type="submit" value="Submit"/>
+        </div>
+      </form>
     </div>
-    <div id="msub">
 
-    </div>
-  </div>
+
 </main>
 <main id="contact-main">
 

@@ -1217,28 +1217,6 @@ img{
 	}
 }
 
-#message-us{
-	width: 100%;
-	height: 100vh;
-}
-#mus{
-	width: 50%;
-	background-color: blue;
-	height: 100%;
-	float: left;
-}
-#mform{
-	width: 50%;
-	background-color: red;
-	height: 100%;
-	float: right;
-}
-#mq{
-
-}
-#msub{
-
-}
 @media screen and (max-width: 600px) {
 	#imgh2{
 		margin-top: 25vh;
@@ -1252,4 +1230,9 @@ img{
 	text-align: center;
 	margin: 0 auto;
 	width: 100%;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top
 }
