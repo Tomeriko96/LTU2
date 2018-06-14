@@ -933,6 +933,7 @@ button.accordion:hover, button.accordion.is-open {
 	position: relative;
 }
 .clients-belt{
+	margin-top: 5%;
 	width: 25%;
 	position: relative;
 }
