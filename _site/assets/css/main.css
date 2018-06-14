@@ -1094,15 +1094,18 @@ img{
 	height: 150vh;
 	width: 80%;
 }
+
+/* @media screen and (max-width: 414px) { */
+	/* #ideals > div{ */
+		/* margin: 5%; */
+	/* } */
+/* } */
 #ideals > div {
-  margin-left: 2%;
-  margin-bottom: 2%;
   background-color: white;
-  border-radius: 25px;
+  border-radius: 48px;
   border: 1px solid #2B292E;
-  padding: 20px;
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   float: left;
 }
 #ideals > div>  p {
