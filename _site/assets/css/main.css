@@ -992,7 +992,6 @@ button.accordion:hover, button.accordion.is-open {
 		 }
 		 #testimonial{
 			 height: 100%;
-			 width; 100%;
 		 }
 
 	 }
@@ -1205,7 +1204,14 @@ img{
 	text-align: center;
 	margin-top: 5%;
 }
-
+@media screen and (max-width: 600px) {
+	#cus{
+		height: 300vh;
+	}
+	.methods{
+		width: 100%;
+	}
+}
 
 #message-us{
 	width: 100%;
