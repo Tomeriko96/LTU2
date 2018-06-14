@@ -927,15 +927,10 @@ button.accordion:hover, button.accordion.is-open {
 	padding-top: 15px;
 }
 
-/* Testimonials */
+/* Testimonial */
 #testimonial{
 	height: 60vh;
-	width: 100vw;
 	position: relative;
-	
-	@media screen {
-		height: 250vh;
-	}
 }
 
 .clients-belt{
@@ -945,18 +940,20 @@ button.accordion:hover, button.accordion.is-open {
 	max-height: 10vh;
 
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 414px) {
 	.clients-belt {
 		height: 25%;
 		width: 100%;
 		margin-bottom: 50vh;
 		 }
-		 #testimonials{
-			 height: 250vh;
-			 width: 100vw;
+		 #testimonial{
+			 height: 100%;
+			 width; 100%;
 		 }
 
 	 }
+	 
+
 /* #ideals > div {
 	height: 10vh;
 	margin-top: 5px;
