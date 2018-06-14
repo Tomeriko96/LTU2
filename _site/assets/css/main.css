@@ -862,7 +862,8 @@ button:hover{
 	cursor: pointer;
 }
 #form{
-	margin-top: 75%;
+	width: 100%;
+	margin-top: 50%;
 }
 a.active-page{
 text-decoration: underline;
@@ -931,6 +932,9 @@ button.accordion:hover, button.accordion.is-open {
 #testimonial{
 	height: 60vh;
 	position: relative;
+	@media screen {
+		height: 250vh;
+	}
 }
 
 .clients-belt{
@@ -967,6 +971,13 @@ button.accordion:hover, button.accordion.is-open {
 	float: left;
 	margin-right: 1px;
 } */
+=======
+		 #testimonials{
+			 height: 250vh;
+			 width: 100vw;
+		 }}
+
+>>>>>>> c3da64371d0abf5c08d38d930bafbe62b946671a
 .client-name{
 	display: block;
   text-transform: uppercase;
