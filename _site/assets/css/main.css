@@ -1175,8 +1175,12 @@ img{
     margin:auto;
 }
 #p404{
-	background-image: url(/assets/img/eclipse.jpg);
-	background-size: cover;
+	background: url(/assets/img/eclipse.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                background-size: 100% 100%;
 }
 #cus{
 	height: 100vh;
