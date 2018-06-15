@@ -753,9 +753,9 @@ h5{
 	background-image: url(/assets/trianglify/trianglify3.png);
 	background-size: cover;
 	  /* background-color: white; */
-	border-radius: 48px;
+	border-radius: 50%;
 	border: 1px solid #2B292E;
-	width: 180px;
+	width: 25vh;
 	height: 25vh;
 	padding: 1%;
 	float: left;
@@ -1132,34 +1132,36 @@ img{
 }
 #ideals{
 	margin: 0 auto;
-	height: 90vh;
+	height: 100vh;
 	width: 90%;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 434px) {
 	#ideals{
-		height: 100vh;
+		height: 175vh;
 		width: 100%;
 	}
 	#ideals > div > img{
 		width: 25%;
 	}
 	#ideals > div{
-		width: 17.5%;
-		height: 17.5%;
+			width: 25vh;
+			height: 25vh;
+		/* width: 17.5%; */
+		/* height: 17.5%; */
 	}
 
 }
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
 	#ideals{
 		height: 100vh;
 		width: 100%;
 	}
 	#trianglify3{
-		height: 150px;
-		width: 110px;
+		height: 60vh;
+		width: 60vw;
 	}
-}
+} */
 
 
 #ideals > div>  p {
