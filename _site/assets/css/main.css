@@ -937,7 +937,8 @@ button.accordion {
   outline: none;
   text-align: left;
   padding: 15px 20px;
-  font-size: 18px;
+  /* font-size: 18px; */
+	font-size: 2vh;
   color: darkturquoise;
   cursor: pointer;
   transition: background-color 0.2s linear;
@@ -970,6 +971,7 @@ button.accordion:hover, button.accordion.is-open {
 }
 .accordion-text {
 	padding-top: 15px;
+	font-size: 2vh;
 }
 
 /* Testimonial */
