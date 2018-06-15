@@ -986,7 +986,7 @@ button.accordion:hover, button.accordion.is-open {
 	max-height: 10vh;
 
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 814px) {
 	.clients-belt {
 		height: 25%;
 		width: 100%;
@@ -1172,7 +1172,7 @@ img{
 }
 #ideals > div > img {
 	display:block;
-    margin:auto;
+    margin: auto;
 }
 #p404{
 	background: url(/assets/img/eclipse.jpg) no-repeat center center fixed;
@@ -1227,6 +1227,12 @@ img{
 	}
 	.socmed{
 		width: 100%;
+		margin: 0 auto;
+	}
+	.socmed >div{
+		text-align: center;
+		/* margin: 0 auto; */
+		width: 33%;
 	}
 #copyright{
 	float: left;
