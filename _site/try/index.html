@@ -29,28 +29,25 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.fullPage.js"></script>
 <script type="text/javascript">
-    $(document).ready(function() {
-        $('#fullpage').fullpage();
-    });
+
+
+$(document).ready(function() {$('#fullpage').fullpage({
+	anchors: ['firstPage', 'secondPage', 'thirdPage'],
+	menu: '#menu',
+  navigationTooltips: ['Header', 'Contact Form', 'Footer'],
+  css3: true,
+  scrollingSpeed: 1000,
+  navigation: true,
+  slidesNavigation: true,
+  responsiveHeight: 330,
+});
+   });
 </script>
 </head>
 
 <body>
   <div class="right" id="fp-nav">
-    <ul>
-      <li>
-        <a href="section0"><span></span></a>
-        <div class="fp-tooltip right">Header</div>
-      </li>
-      <li>
-        <a href="section1"><span></span></a>
-        <div class="fp-tooltip right">Contact Form</div>
-      </li>
-      <li>
-        <a href="section2"><span></span></a>
-        <div class="fp-tooltip right">Footer</div>
-      </li>
-    </ul>
+    <ul id="menu"></ul>
   </div>
 <div id="fullpage">
     <div class="section " id="section0" style="height: 100vh;">
