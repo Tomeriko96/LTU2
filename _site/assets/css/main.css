@@ -775,6 +775,31 @@ h5{
 	margin-left: 1%;
 	margin-bottom: 1%;
 }
+#trianglify4 {
+	background-image: url(/assets/trianglify/trianglify3.png);
+	background-size: cover;
+	  /* background-color: white; */
+	border-radius: 50%;
+	border: 1px solid #2B292E;
+	width: 80vh;
+	height: 80vh;
+	/* padding: 1%; */
+	/* float: left; */
+	/* margin-left: 1%; */
+	/* margin-bottom: 1%; */
+	margin: 0 auto;
+}
+.intro > h1 {
+	text-align: center;
+}
+.intro > div{
+text-align: center;
+}
+.intro > div> img{
+	height: 25vh;
+	width: 50vh;
+	margin-top: 25%;
+}
 #contact-text{
   position: absolute;
   right: 0;
