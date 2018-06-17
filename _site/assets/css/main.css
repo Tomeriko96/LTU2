@@ -75,11 +75,11 @@
 }
 
 .what {
-	margin-top: 6vh;
-	padding-top: 10px;
+	padding-top: 25px;
 	position: relative;
 	display: block;
 	text-align: center;
+	/* border-top: 1px solid #e8e8e8; */
 	border-bottom: 1px solid #e8e8e8;
 	color: darkturquoise;
     text-transform: uppercase;
@@ -368,6 +368,7 @@ table {
 			margin-top: 5%;
 		}
 		.what{
+			margin-top: -4vh;	
 			font-size: 1.5vh;
 			font-weight: 800;
 		}
@@ -855,8 +856,8 @@ ul{list-style-type: square;}
 
 #contact-us{
 	opacity: 0.8;
-  border-top: 1px solid #e8e8e8;
-  width:100%;
+	border-top: 1px solid #e8e8e8;
+	width:100%;
 	height: 120vh;
 	background: url(/assets/img/2.jpg) no-repeat center center fixed;
                 -webkit-background-size: cover;
@@ -1027,7 +1028,7 @@ button.accordion:hover, button.accordion.is-open {
 
 /* Testimonial */
 #testimonial{
-	height: 100vh;
+	height: 45vh;
 	position: relative;
 
 }
@@ -1188,8 +1189,8 @@ img{
 }
 #ideals{
 	margin: 0 auto;
-	height: 100vh;
-	width: 90%;
+	height: 95vh;
+	width: 80%;
 }
 
 @media screen and (max-width: 434px) {
@@ -1203,10 +1204,6 @@ img{
 	#ideals > div{
 			width: 25vh;
 			height: 25vh;}
-	.what {
-		margin-top: 2vh;
-	}
-
 }
 
 @media screen and (width: 375px) and (min-height: 812px) {
@@ -1223,7 +1220,7 @@ img{
 
 }
 
-@media screen and (min-width: 400px) and (min-height: 812px) {
+@media screen and (min-width: 400px) and (max-width: 450px) and (min-height: 812px) {
 	#ideals{
 		height: 150vh;
 		width: 100%;
@@ -1234,7 +1231,6 @@ img{
 	#ideals > div{
 			width: 23vh;
 			height: 23vh;}
-
 }
 
 @media screen and (width: 768px) and (height: 1024px) {
@@ -1294,7 +1290,7 @@ img{
                 background-size: 100% 100%;
 }
 #cus{
-	height: 100vh;
+	height: 75vh;
 	background-image: url(/assets/trianglify/trianglify1.png);
 	background-size: cover;
 }
@@ -1330,6 +1326,27 @@ img{
 	.methods{
 		width: 100%;
 	}
+}
+
+@media screen and (width: 768px) and (height: 1024px) {
+	#cus{
+	height: 60vh;}
+}
+
+@media screen and (width: 1024px) and (height: 768px) {
+	#cus{
+	height: 80vh;}
+}
+
+
+@media screen and (width: 1024px) and (height: 1366px) {
+	#cus{
+	height: 45vh;}
+}
+
+@media screen and (width: 1366px) and (height: 1024px) {
+	#cus{
+	height: 65vh;}
 }
 
 @media screen and (max-width: 600px) {
