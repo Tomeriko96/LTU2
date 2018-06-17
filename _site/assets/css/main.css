@@ -961,6 +961,18 @@ text-decoration: underline;
 								background-size: cover;
 								background-size: 100% 100%;
 }
+#shirt2{
+	/* opacity: 0.5; */
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	height: 100vh;
+	background: url(/assets/img/5.jpg) no-repeat center center fixed;
+								-webkit-background-size: cover;
+								-moz-background-size: cover;
+								-o-background-size: cover;
+								background-size: cover;
+								background-size: 100% 100%;
+}
 .container {
   width: 100%;
   margin: 50px 0;
