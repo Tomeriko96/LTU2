@@ -1181,7 +1181,7 @@ img{
 
 @media screen and (max-width: 434px) {
 	#ideals{
-		height: 175vh;
+		height: 165vh;
 		width: 100%;
 	}
 	#ideals > div > img{
@@ -1189,12 +1189,38 @@ img{
 	}
 	#ideals > div{
 			width: 25vh;
-			height: 25vh;
-		/* width: 17.5%; */
-		/* height: 17.5%; */
-	}
+			height: 25vh;}
 
 }
+
+@media screen and (width: 375px) and (min-height: 812px) {
+	#ideals{
+		height: 136vh;
+		width: 100%;
+	}
+	#ideals > div > img{
+		width: 25%;
+	}
+	#ideals > div{
+			width: 21vh;
+			height: 21vh;}
+
+}
+
+@media screen and (min-width: 400px) and (min-height: 812px) {
+	#ideals{
+		height: 150vh;
+		width: 100%;
+	}
+	#ideals > div > img{
+		width: 25%;
+	}
+	#ideals > div{
+			width: 23vh;
+			height: 23vh;}
+
+}
+
 /* @media screen and (max-width: 375px) {
 	#ideals{
 		height: 100vh;
